@@ -1,0 +1,57 @@
+@font-face {
+  font-family: roboto regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto regular;
+}
+input:focus {
+  outline: none;
+}
+body {
+}
+.login {
+  width: 200px;
+  border: 2px solid #dadcdf;
+  margin: 200px auto;
+  padding: 30px 30px;
+  height: 400px;
+  text-align: center;
+  border-radius: 15px;
+}
+.login h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.login img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-top: 30px;
+}
+.login form {
+  margin-top: 20px;
+}
+.login input {
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+  margin-top: 15px;
+  border: none;
+  border-bottom: 2px solid #999;
+  font-size: 16px;
+}
+.login button {
+  display: inline-block;
+  margin-top: 30px;
+  width: 60%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: white;
+  border: 2px solid #dadcdf;
+}

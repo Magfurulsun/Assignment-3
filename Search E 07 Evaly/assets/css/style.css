@@ -1,0 +1,141 @@
+@font-face {
+  font-family: roboto regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto regular;
+}
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.main {
+  background-color: white;
+}
+.broder {
+  width: 100%;
+  border: 1px solid #dadcdf;
+}
+.main .container {
+  width: 85%;
+  margin: 0px auto;
+}
+.main .header {
+  height: 35px;
+}
+.main .header::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.main .header .left {
+  float: left;
+  width: 50%;
+}
+.main .header .right {
+  float: left;
+  width: 50%;
+}
+.main .header .left i:nth-child(1) {
+  color: #c9151b;
+  transform: rotate(-45deg);
+}
+.main .header .left a:nth-child(2) {
+  color: black;
+  font-size: 12px;
+  padding: 0px 5px;
+  display: inline-block;
+}
+.main .header .left i:nth-child(3) {
+  color: #c9151b;
+  margin-left: 15px;
+}
+.main .header .left a:nth-child(4) {
+  color: black;
+  font-size: 12px;
+  padding: 0px 4px;
+  display: inline-block;
+  transform: translateY(-2px);
+}
+.main .header .left {
+  transform: translateY(6px);
+}
+.main .header .right {
+  text-align: right;
+  transform: translateY(5px);
+}
+.main .header .right i {
+  color: #c9151b;
+  font-size: 16px;
+}
+.main .header .right a {
+  color: black;
+  font-size: 12px;
+  padding: 0px 5px;
+  display: inline-block;
+  transform: translateY(-1px);
+}
+.box {
+  padding: 15px;
+}
+.box::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.logo {
+  width: 10%;
+  float: left;
+}
+.search {
+  width: 70%;
+  float: left;
+}
+.menu {
+  width: 20%;
+  float: left;
+}
+.box .logo img {
+  width: 90px;
+
+  transform: translate(-15px);
+}
+.box .search input {
+  width: 90%;
+  padding: 10px;
+  border: 1.5px solid #c9151b;
+  box-sizing: border-box;
+  border-radius: 5px 0px 0px 5px;
+  float: left;
+}
+.box .search button {
+  width: 10%;
+  padding: 11px 5px;
+  background-color: #c9151b;
+  border: none;
+  float: left;
+  border-radius: 0px 5px 5px 0px;
+}
+.box .search button i {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+.box .menu i {
+  padding: 0px 15px;
+}
+.box .menu {
+  text-align: right;
+
+  transform: translateY(10px);
+}

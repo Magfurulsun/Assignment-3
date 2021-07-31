@@ -1,0 +1,73 @@
+@font-face {
+  font-family: roboto regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin-left: 108px;
+  margin-top: 20px;
+}
+.login {
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+  background-image: ;
+  border: 1px solid #dadcdf;
+  border-radius: 5px;
+  background-image: url(../image/download.jpg);
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  text-align: center;
+  color: red;
+}
+p {
+  font-size: 20px;
+  color: red;
+  margin-left: 119px;
+}
+input {
+  width: 200px;
+  height: 30px;
+  border: 2px solid #dadcdf;
+  font-size: 15px;
+
+  border-radius: 5px;
+  margin-left: 119px;
+}
+input:hover {
+  background-color: yellowgreen;
+  cursor: pointer;
+}
+button {
+  width: 70px;
+
+  color: black;
+  font-size: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 182px;
+}
+li {
+  display: inline;
+}
+a {
+  color: red;
+  padding: 10px;
+}
+a:hover {
+  background-color: yellowgreen;
+  cursor: pointer;
+}
+button:hover {
+  background-color: yellowgreen;
+  cursor: pointer;
+}

@@ -1,0 +1,60 @@
+@font-face {
+  font-family: roboto regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto regular;
+}
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.main img {
+  background-color: blue;
+  display: inline-block;
+  width: 49%;
+  height: 45px;
+  margin-top: 20px;
+}
+
+.main {
+  width: 300px;
+  padding: 10px 20px;
+  margin: 100px auto;
+  height: 400px;
+  background-color: #cbced1;
+  border-radius: 5px;
+}
+.main h1 {
+  text-align: center;
+}
+.main .login input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+.main .box p {
+  text-align: center;
+  margin-top: 10px;
+}
+.main .login button {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-top: 10px;
+  font-size: 16px;
+  transform: translate(50%);
+}

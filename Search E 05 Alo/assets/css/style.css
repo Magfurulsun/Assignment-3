@@ -1,0 +1,81 @@
+@font-face {
+  font-family: roboto regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto regular;
+}
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  background-color: white;
+  margin: 0px auto;
+  padding: 10px;
+}
+.main .logo {
+  width: 20%;
+  float: left;
+}
+.main .search {
+  width: 50%;
+  float: left;
+}
+.main .icon {
+  width: 30%;
+  float: left;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.main .logo img {
+  width: 65px;
+}
+.main .search input {
+  width: 80%;
+  padding: 8px;
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 0px 0px 0px 0px;
+}
+.main .search button {
+  width: 15%;
+  padding: 6.5px 12px;
+  float: left;
+  background-color: #ff0080;
+  border: 1px solid #ff0080;
+  font-size: 16px;
+  margin-left: 4px;
+  color: white;
+  border-radius: 0px 0px 0px 0px;
+}
+.main .icon {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 15px;
+}
+.main .icon a {
+  color: black;
+  font-size: 15px;
+}
+.main .icon i:nth-child(3) {
+  padding: 0px 10px;
+}
+.main .icon i:nth-child(1) {
+  padding: 0px 10px;
+}

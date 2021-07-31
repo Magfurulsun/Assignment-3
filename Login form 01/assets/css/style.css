@@ -1,0 +1,80 @@
+@font-face {
+  font-family: roboto regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto regular;
+}
+input:focus {
+  outline: none;
+}
+body {
+  background-image: linear-gradient(
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 255, 0, 0.8)
+    ),
+    url(../image/Everest-Base-Camp-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login {
+  width: 400px;
+  background-color: white;
+  margin: 100px auto;
+  padding: 50px 30px;
+  border-radius: 10px;
+  position: relative;
+}
+.login h2 {
+  text-align: center;
+  color: #333;
+  font-size: 30px;
+}
+.login form {
+  margin-top: 30px;
+  text-align: center;
+}
+.login input {
+  width: 100%;
+  padding: 15px 0px;
+  box-sizing: border-box;
+  display: block;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid #444;
+}
+.login textarea {
+  width: 100%;
+  padding: 15px 0px;
+  box-sizing: border-box;
+  display: block;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid #444;
+  line-height: 30px;
+}
+.login button {
+  margin-top: 30px;
+  padding: 7px 5px;
+  border: none;
+  background-image: linear-gradient(
+    rgba(255, 0, 0, 0.8),
+    rgba(255, 255, 0, 0.8)
+  );
+  border-radius: 5px;
+}
+textarea:focus {
+  outline: none;
+}
+.login img {
+  top: -40px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+}

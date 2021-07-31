@@ -1,0 +1,49 @@
+@font-face {
+  font-family: roboto regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  background-color: white;
+}
+
+.container {
+  width: 65%;
+  margin: 20px auto;
+
+  height: 400px;
+}
+.ask .logo {
+  text-align: center;
+}
+
+.ask .search input {
+  width: 95%;
+  font-size: 18px;
+  padding: 15px;
+  float: left;
+  border: 1px solid grey;
+}
+.ask .search button {
+  width: 5%;
+  padding: 15px;
+  font-size: 19px;
+  float: left;
+  background-color: #408ec9;
+  border: 1px solid #408ec9;
+  color: white;
+}

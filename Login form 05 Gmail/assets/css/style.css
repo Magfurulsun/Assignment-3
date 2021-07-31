@@ -1,0 +1,73 @@
+@font-face {
+  font-family: roboto regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto regular;
+}
+a {
+  text-decoration: none;
+}
+
+.gmail {
+  width: 350px;
+  height: 460px;
+  padding: 50px 50px;
+  margin: 50px auto;
+  border: 1px solid #dadcdf;
+}
+.gmail img {
+  display: block;
+  margin: auto;
+}
+.gmail .login h2 {
+  text-align: center;
+  margin-top: 25px;
+  font-weight: normal;
+}
+.gmail .login h5 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.gmail .login input {
+  width: 100%;
+  padding: 18px 10px;
+  font-size: 18px;
+  border: 1px solid #dadcdf;
+  margin-top: 28px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 13px;
+}
+.gmail .login input:focus {
+  border: 1px solid blue;
+}
+.gmail .login p {
+  width: 100%;
+  font-size: 14px;
+  margin-top: 40px;
+}
+.gmail .login #a1 {
+  color: #1676f3;
+}
+.gmail .login #a2 {
+  display: block;
+  margin-bottom: 50px;
+  margin-top: 5px;
+  color: #1676f3;
+}
+.gmail .login #a3 {
+  color: #1676f3;
+}
+.gmail .login button {
+  padding: 10px 25px;
+  background-color: #1676f3;
+  color: white;
+  border: #1676f3;
+  border-radius: 5px;
+  margin-left: 157px;
+}

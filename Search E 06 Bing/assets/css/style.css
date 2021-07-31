@@ -1,0 +1,109 @@
+@font-face {
+  font-family: roboto regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto regular;
+}
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+body {
+  background-image: url(../image/BingWallpaper.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  width: 80%;
+  height: 100px;
+  margin: 0px auto;
+  padding: 10px;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bing .left {
+  width: 50%;
+  float: left;
+}
+.bing .right {
+  width: 50%;
+  float: left;
+}
+.bing .left p {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  margin-right: 40px;
+  transform: translateY(-14px);
+  font-weight: 400;
+}
+.bing .left a {
+  font-size: 14px;
+  color: #dfdfdf;
+  padding: 0px 15px;
+  transform: translateY(-15px);
+  display: inline-block;
+}
+.bing .left i {
+  font-size: 20px;
+  color: white;
+  padding: 0px 15px;
+  transform: translateY(-10px);
+  display: inline-block;
+}
+.bing .right {
+  text-align: right;
+}
+.bing .right a {
+  font-size: 14px;
+  color: #dfdfdf;
+  padding: 0px 15px;
+  transform: translateY(-15px);
+  display: inline-block;
+}
+.bing .right i {
+  padding: 0px 15px;
+  transform: translateY(-10px);
+  display: inline-block;
+}
+.bing .search {
+  width: 50%;
+  margin: 50px auto;
+}
+.bing .search input {
+  display: block;
+  width: 100%;
+  padding: 17px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.bing .search .sicon i {
+  font-size: 24px;
+  display: inline-block;
+  padding: 0px 10px;
+  color: #00809d;
+}
+.bing .search {
+  position: relative;
+}
+.bing .search .sicon {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+}

@@ -1,0 +1,49 @@
+@font-face {
+  font-family: roboto regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto regular;
+}
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.main .box {
+  width: 700px;
+
+  margin: 20px auto;
+}
+.main .box .logo {
+  text-align: center;
+}
+.main .box .search input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #dadcdf;
+  box-sizing: border-box;
+  border-radius: 7px;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.main .box .search {
+  position: relative;
+}
+
+.main .box i {
+  position: absolute;
+  right: 14px;
+  top: 60px;
+  color: gray;
+  font-size: 15px;
+  font-weight: bolder;
+}

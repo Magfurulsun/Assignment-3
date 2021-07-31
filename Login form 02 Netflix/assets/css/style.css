@@ -1,0 +1,81 @@
+@font-face {
+  font-family: lato regular;
+  src: url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.netflix {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../image/Bg\ image.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+input:focus {
+  outline: none;
+}
+.netflix .logo img {
+  width: 200px;
+  margin-left: 30px;
+}
+.netflix .login {
+  width: 320px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: auto;
+  height: 450px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+.netflix .login h2 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: roboto;
+}
+.netflix .login input,
+.netflix .login button {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  display: block;
+}
+.netflix .login button {
+  background-color: #e50914;
+  color: white;
+  font-size: 15px;
+  margin-top: 35px;
+  border: 1px solid #e50914;
+}
+.netflix .login input {
+  color: whitesmoke;
+}
+.netflix .login .click input {
+  width: 20px;
+  line-height: 15px;
+  display: inline-block;
+}
+.netflix .login .click label {
+  color: #b3b3b3;
+  font-size: 15px;
+}
+.netflix .login .click a {
+  text-decoration: none;
+  float: right;
+  color: #b3b3b3;
+  font-size: 15px;
+}
